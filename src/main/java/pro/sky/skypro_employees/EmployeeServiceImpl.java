@@ -23,7 +23,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             }
         }
         employee.add(employeeAdd);
-        System.out.println("Сотрудник " + firstName + " " + lastName + " добавлен.");
+        System.out.println("Сотрудник " + firstName + " " + lastName + "  добавлен.");
         return employeeAdd;
     }
 
